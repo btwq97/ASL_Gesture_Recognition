@@ -14,7 +14,7 @@ from sklearn.preprocessing import LabelEncoder
 
 class myMqtt():
     def __init__(self):
-        self.id = '172.28.227.52' # TODO: edit address
+        self.id = '' # TODO: edit address
         self.GESTURE_RESPONSE_TOPIC = 'group7/gesture/prediction'
         self.ASL_RESPONSE_TOPIC = 'group7/asl/prediction'
         self.GESTURE_REQUEST_TOPIC = 'group7/gesture/request'
